@@ -1,0 +1,181 @@
+
+/* this class is for div of  two buttons which was made on index page all posts and create posts */
+.contain
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 47%;
+    text-align: center;
+}
+
+/* this class is for buttons which was on mid of post two color it and padding. */
+.btc
+{
+    
+    background-color: yellow;
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: 5px;
+
+}
+
+
+/* this is for the sign in and signup form  */
+form{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 360px;
+    height: 460px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+/* this will work on the form which will popup */
+#main
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* this class is for cross button which will close the form */
+.cut
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+/* this is for input block */
+input
+{
+    margin-top: 5px;
+    margin-bottom: 16px;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 5px;
+    background-color: #f2f2f2;
+    border: 0;
+    height: 25px;
+
+}
+/* this class is for title word which will be post form ,it used everywhere we need to use this margin */
+.fr
+{
+   
+    margin-left: 15px;
+    margin-right: 15px;
+}
+/* this fbt id is of signup button /sign in */
+#fbt{
+    margin-top: 16px;
+    margin-bottom: 25px;
+    margin-left: 15px;
+    margin-right: 15px;
+    height: 37px;
+    background-color:#66cc66;
+    color: white;
+    border: 0;
+    font: bold;
+    font-family: 'Nunito Sans', sans-serif;
+
+}
+/* this is for cross button which will close form of signup page/sign in  */
+#cross
+{
+    margin-left: 15px;
+    margin-right: 15px;
+    color: #8c8c8c;
+    size: 20px;
+}
+/* this is the id of form which will open for sign in or sign up  */
+#sign
+{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 360px;
+    height: 360px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+
+#create
+{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 1200px;
+    height: 450px;
+    font-family: 'Nunito Sans', sans-serif;
+    
+}
+/* this is for button which will create post on click */
+
+#fbt1
+{
+    margin-top: 16px;
+    margin-bottom: 25px;
+    margin-left: 15px;
+    margin-right: 15px;
+    width: 100px;
+    height: 30px;
+    background-color:#66cc66;
+    color: white;
+    border: 0;
+    font: bold;
+    font-weight: bold;
+}
+/* this is for the text area of the post in which we will write  */
+#tar
+{
+    margin-top: 5px;
+    margin-bottom: 16px;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 5px;
+    background-color: #f2f2f2;
+    border: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 230px;
+    
+}
+/* this is of the form which will come when for the post create */
+
+#createone
+{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 1200px;
+    height: 480px;
+    font-family: 'Nunito Sans', sans-serif;
+    padding-top: initial;
+}
+/* this is for div block of button of create post  */
+#shift{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* this if for the PEN YOUR POST  */
+#PYP{
+    margin-left: 15px;
+    margin-right: 15px;
+    font-weight: 200;
+    font-size: x-large;
+    color: #808080;
+}

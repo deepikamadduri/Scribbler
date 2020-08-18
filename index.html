@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- TODO: Include Font Awesome file here -->
+    <link rel="stylesheet" href="./styles/common.css">
+    <link rel="stylesheet" href="./styles/index.css">
+    <link href="https://fonts.googleapis.com/css?family=Montez|Nunito+Sans|Ubuntu+Mono&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3e2ca382cc.js" crossorigin="anonymous"></script>
+
+    
+
+    <!-- TODO: Include Google Fonts file here -->
+</head>
+
+<body>
+    <!-- this is header in which i used container class -->
+    <header class="container">       
+        
+            <div>                               
+                <div id='scribbler'>
+                    ScriBBler    
+                </div>
+                <div id="Tag">
+                    Explore,Imagine,Create
+                </div>
+            </div>
+            <div>
+                <button class="bt" onclick="Signup()">Sign Up</button>
+                <button class="bt" onclick="Sign()">Sign In</button>
+            </div>
+        
+    </header>
+
+    <div class="contain" id="del">
+        <div>
+            <!-- I made two buttons All posts and Create post and called two functions for each button to open postlist and post create -->
+          <button class="btc" onclick="loadPage()">All Posts</button>
+        </div>
+        <div>
+            <button class="btc" onclick="Create()">Create Post</button>
+        </div>
+
+    </div>
+    <div id="main"> </div>
+        
+        
+    <!-- I used index.js script for main page -->
+    <script src="./script/index.js">  
+
+    </script>
+
+    <!-- TODO: Include all your code for the header and home page here -->
+</body>
+
+</html>
